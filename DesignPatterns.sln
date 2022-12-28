@@ -13,7 +13,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryDesignPatter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRSDesignPattern", "CQRSDesignPattern\CQRSDesignPattern.csproj", "{0849B503-9369-419E-A1CA-D2F9FB11B9F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryDesignPattern", "RepositoryDesignPattern\RepositoryDesignPattern.csproj", "{C79D282D-D302-4E4B-84A8-AC340E14C1AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepositoryDesignPattern", "RepositoryDesignPattern\RepositoryDesignPattern.csproj", "{C79D282D-D302-4E4B-84A8-AC340E14C1AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CircuitBreakerDesignPattern", "CircuitBreakerDesignPattern", "{2E6DD439-B159-4203-8C18-FF28D596A7D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperature", "Temperature\Temperature.csproj", "{700330FA-42BB-4983-A90E-62E9E6895AC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{7DDD31CF-A04D-47DC-B4CB-954DA59744B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SagaDesignPattern", "SagaDesignPattern", "{5DEEFFE8-AE21-41B8-B1C1-D6CFE53D8312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PubSubDesignPattern", "PubSubDesignPattern\PubSubDesignPattern.csproj", "{6A79EEDA-4756-49F4-B10F-552E5A327E17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Events", "Saga.Events\Saga.Events.csproj", "{3EA8E59C-5914-4204-B862-54B7F090F749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.OrderService", "Saga.OrderService\Saga.OrderService.csproj", "{51D738A6-5BCC-453B-B93F-370948F609BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.PaymentService", "Saga.PaymentService\Saga.PaymentService.csproj", "{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.StockService", "Saga.StockService\Saga.StockService.csproj", "{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,9 +63,45 @@ Global
 		{C79D282D-D302-4E4B-84A8-AC340E14C1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79D282D-D302-4E4B-84A8-AC340E14C1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79D282D-D302-4E4B-84A8-AC340E14C1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{700330FA-42BB-4983-A90E-62E9E6895AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{700330FA-42BB-4983-A90E-62E9E6895AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{700330FA-42BB-4983-A90E-62E9E6895AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{700330FA-42BB-4983-A90E-62E9E6895AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DDD31CF-A04D-47DC-B4CB-954DA59744B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DDD31CF-A04D-47DC-B4CB-954DA59744B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DDD31CF-A04D-47DC-B4CB-954DA59744B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DDD31CF-A04D-47DC-B4CB-954DA59744B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A79EEDA-4756-49F4-B10F-552E5A327E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A79EEDA-4756-49F4-B10F-552E5A327E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A79EEDA-4756-49F4-B10F-552E5A327E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A79EEDA-4756-49F4-B10F-552E5A327E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA8E59C-5914-4204-B862-54B7F090F749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA8E59C-5914-4204-B862-54B7F090F749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA8E59C-5914-4204-B862-54B7F090F749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA8E59C-5914-4204-B862-54B7F090F749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D738A6-5BCC-453B-B93F-370948F609BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D738A6-5BCC-453B-B93F-370948F609BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D738A6-5BCC-453B-B93F-370948F609BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D738A6-5BCC-453B-B93F-370948F609BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{700330FA-42BB-4983-A90E-62E9E6895AC2} = {2E6DD439-B159-4203-8C18-FF28D596A7D8}
+		{7DDD31CF-A04D-47DC-B4CB-954DA59744B0} = {2E6DD439-B159-4203-8C18-FF28D596A7D8}
+		{3EA8E59C-5914-4204-B862-54B7F090F749} = {5DEEFFE8-AE21-41B8-B1C1-D6CFE53D8312}
+		{51D738A6-5BCC-453B-B93F-370948F609BC} = {5DEEFFE8-AE21-41B8-B1C1-D6CFE53D8312}
+		{3EFEB2C9-B960-4D5A-B71D-EA6B003FC87D} = {5DEEFFE8-AE21-41B8-B1C1-D6CFE53D8312}
+		{6128E1A4-488A-40D0-9FDB-D8DFD1257B2A} = {5DEEFFE8-AE21-41B8-B1C1-D6CFE53D8312}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33FB131C-E574-40C4-A633-26DDA817071C}

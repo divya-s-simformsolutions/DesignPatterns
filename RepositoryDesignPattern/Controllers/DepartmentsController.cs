@@ -37,7 +37,7 @@ namespace RepositoryDesignPattern.Controllers
                 return NotFound();
             }
 
-            var department = await _departmentRepository.GetById(id.GetValueOrDefault())
+            var department = await _departmentRepository.GetById(id.GetValueOrDefault());
             if (department == null)
             {
                 return NotFound();
@@ -125,7 +125,7 @@ namespace RepositoryDesignPattern.Controllers
                 return NotFound();
             }
 
-            var department = await _departmentRepository.GetById(id.GetValueOrDefault())
+            var department = await _departmentRepository.GetById(id.GetValueOrDefault());
             if (department == null)
             {
                 return NotFound();
