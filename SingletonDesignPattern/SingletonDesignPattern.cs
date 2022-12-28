@@ -28,7 +28,7 @@ namespace SingletonDesignPattern
                         }
                     }
                 }
-                return _instance;
+                return _singletonDesignPattern;
             }
         }
     }

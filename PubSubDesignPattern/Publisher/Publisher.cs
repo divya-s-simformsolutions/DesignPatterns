@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace PubSubDesignPatterns.Publisher
+namespace PubSubDesignPattern.Publisher
 {
     public delegate void DateTimeDelegate(DateTime dateTime);
 

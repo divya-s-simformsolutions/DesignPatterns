@@ -4,7 +4,7 @@ namespace SingletonDesignPattern
 {
     public class Program
     {
-        public void main(string[] args)
+        private static void Main(string[] args)
         {
             SingletonDesignPattern instance1 = SingletonDesignPattern.SingletonDesignPatternInstance;
             SingletonDesignPattern instance2 = SingletonDesignPattern.SingletonDesignPatternInstance;
